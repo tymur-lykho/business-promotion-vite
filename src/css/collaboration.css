@@ -1,0 +1,38 @@
+/* #region Collaboration */
+.collaboration {
+  margin-bottom: 150px;
+}
+
+.collaboration-container {
+  display: flex;
+  align-items: center;
+}
+
+.collaboration-wrapper {
+  margin-right: 84px;
+}
+
+.collaboration-title {
+}
+
+.collaboration-text {
+  margin-bottom: 30px;
+}
+
+.collaboration-list {
+}
+
+.collaboration-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.collaboration-subtitle {
+  margin-bottom: 12px;
+}
+
+.collaboration-item-text {
+}
+
+.collaboration-img {
+}
+/* #endregion */

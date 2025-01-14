@@ -1,0 +1,34 @@
+/* #region Support */
+.support {
+  padding-bottom: 100px;
+}
+
+.support-container {
+  display: flex;
+  align-items: center;
+}
+
+.support-img {
+  margin-right: 84px;
+}
+
+.support-wrapper {
+}
+
+.support-title {
+}
+
+.support-text {
+  margin-bottom: 30px;
+}
+
+.support-list {
+}
+
+.support-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.support-item-text {
+}
+/* #endregion */

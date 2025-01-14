@@ -1,0 +1,69 @@
+.specification {
+}
+
+.specification-container {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specification-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.specification-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.specification-item {
+  width: calc((100% - 3 * 30px) / 4);
+  margin-bottom: 50px;
+}
+.specification-item::before {
+  content: '';
+  display: block;
+  width: 54px;
+  height: 54px;
+  border-radius: 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 26px;
+}
+.specification-item:nth-child(1)::before {
+  content: '';
+  background-color: #02897a;
+  background-image: url(../img/icons/click.svg);
+}
+.specification-item:nth-child(2)::before {
+  content: '';
+  background-color: #4d8dff;
+  background-image: url(../img/icons/tilda.svg);
+}
+.specification-item:nth-child(3)::before {
+  content: '';
+  background-color: #740a76;
+  background-image: url(../img/icons/love-heart.svg);
+}
+.specification-item:nth-child(4)::before {
+  content: '';
+  background-color: #f03e3d;
+  background-image: url(../img/icons/sand-clock.svg);
+}
+
+.specification-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+
+.specification-text {
+}
+
+.specification-btn {
+  min-width: 175px;
+  text-transform: uppercase;
+}

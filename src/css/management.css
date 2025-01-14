@@ -1,0 +1,41 @@
+/* #region Management */
+.management {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.management-container {
+  display: flex;
+  align-items: center;
+}
+
+.management-wrapper {
+  margin-right: 84px;
+}
+
+.management-title {
+}
+
+.management-text {
+  margin-bottom: 30px;
+}
+
+.management-list {
+}
+
+.management-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.management-subtitle {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.management-item-text {
+}
+
+.management-img {
+}
+
+/* #endregion */

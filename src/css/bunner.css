@@ -1,0 +1,50 @@
+/* #region Bunner */
+.bunner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bunner-container {
+  padding-bottom: 100px;
+}
+.bunner-wrapper {
+  border-radius: 32px;
+  background: #02897a;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  max-width: 968px;
+  margin: 0 auto;
+}
+
+.bunner-left-wrapper {
+  padding-left: 51px;
+  padding-bottom: 56px;
+  padding-top: 49px;
+}
+
+.bunner-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  margin-bottom: 46px;
+  width: 510px;
+}
+
+.bunner-btn {
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  background: #fff;
+  border-radius: 8px;
+  min-width: 150px;
+  height: 50px;
+  outline: transparent;
+  border: transparent;
+}
+.bunner-img {
+}
+/* #endregion */
