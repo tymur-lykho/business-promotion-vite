@@ -2,33 +2,41 @@
   <div class="container header-container">
     <a class="logo header-logo" href="#">
       <svg class="logo-icon" width="40" height="36">
-        <use href="./img/header/logo.svg"></use>
+        <use href="img/sprite.svg#logo"></use>
       </svg>
-      Product
+      <span>Product</span>
     </a>
-    <nav class="header-nav">
-      <ul class="header-nav-list">
-        <li class="header-nav-item">
-          <a class="header-nav-link current" href="./index.html">Product</a>
+
+    <button class="header-menu-btn" type="button">
+      <svg class="header-menu-btn-icon" width="28" height="31">
+        <use href="/img/sprite.svg#burger-menu"></use>
+      </svg>
+    </button>
+    <div class="header-buttons-wrapper">
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link current" href="./index.html">Product</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./customer-page.html">Customers</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./pricing-page.html">Pricing</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">Resources</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header-btn-list">
+        <li class="header-btn-item">
+          <button class="header-btn" type="button">Sign In</button>
         </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="./customer-page.html">Customers</a>
-        </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="./pricing-page.html">Pricing</a>
-        </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="">Resources</a>
+        <li class="header-btn-item">
+          <button class="header-btn" type="button">Sign Up</button>
         </li>
       </ul>
-    </nav>
-    <ul class="header-btn-list">
-      <li class="header-btn-item">
-        <button class="header-btn" type="button">Sign In</button>
-      </li>
-      <li class="header-btn-item">
-        <button class="header-btn" type="button">Sign Up</button>
-      </li>
-    </ul>
+    </div>
   </div>
 </header>
