@@ -11,5 +11,8 @@
 			<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 8h21.677"></path>
 			<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 24h21.677"></path>
 		</symbol>
+		<symbol id="play" viewBox="0 0 29 32">
+			<path d="M27.343 14.302c1.269 0.728 1.269 2.558 0 3.287l-23.642 13.57c-1.263 0.725-2.838-0.187-2.838-1.643v-27.14c0-1.456 1.575-2.368 2.838-1.643l23.642 13.57z"></path>
+		</symbol>
 	</defs>
 </svg>

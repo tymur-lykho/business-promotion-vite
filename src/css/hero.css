@@ -1,58 +1,104 @@
 /* #region Hero */
 .hero {
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
-
 .hero-container {
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
+  gap: 10px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .hero-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+  }
+}
 .hero-wrapper {
-  margin-right: 35px;
 }
-
 .hero-title {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 1.5;
-  margin-bottom: 18px;
+  font-size: 36px;
+  line-height: 1.66;
+  text-align: center;
+  margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .hero-title {
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+  }
+}
 .hero-text {
   font-size: 18px;
   line-height: 1.55;
-  margin-bottom: 45px;
+  text-align: center;
+  margin-bottom: 12px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .hero-text {
+    text-align: left;
+    margin-bottom: 45px;
+  }
+}
 .hero-list-btn {
   display: flex;
   align-items: center;
-  gap: 30px;
+  justify-content: center;
+  gap: 28px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .hero-list-btn {
+    justify-content: flex-start;
+    gap: 30px;
+  }
+}
 .hero-item-btn {
 }
-
-.hero-btn {
-  min-width: 178px;
+.hero-item-btn:last-child {
+  transition: scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
+.hero-item-btn:last-child:hover,
+.hero-item-btn:last-child:focus {
+  transform: scale(1.1);
+}
+.hero-btn {
+  min-width: 142px;
+  transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-property: color, background-color, border;
+}
+@media only screen and (min-width: 1150px) {
+  .hero-btn {
+    min-width: 178px;
+  }
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: transparent;
+  color: #22343d;
+  border: 1px solid #bcd0e5;
+}
 .btn-link {
   font-weight: 600;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
   color: #02897a;
   background-color: transparent;
   border: none;
 
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+
   display: flex;
   align-items: center;
   gap: 9px;
-}
 
+  padding: 14px 0;
+}
 .hero-play-btn-icon {
+  pointer-events: none;
   fill: #02897a;
 }
 
