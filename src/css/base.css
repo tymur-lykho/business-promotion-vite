@@ -31,13 +31,20 @@ body {
 
 .default-btn {
   display: block;
+  min-height: 53px;
   font-weight: 700;
   font-size: 16px;
-  color: #fff;
   border-radius: 4px;
-  height: 53px;
-  background: #02897a;
   border: none;
+  color: #fff;
+  background-color: #02897a;
+}
+
+.default-btn:hover,
+.default-btn:focus {
+  background-color: transparent;
+  color: #22343d;
+  border: 1px solid #bcd0e5;
 }
 
 .litle-title {

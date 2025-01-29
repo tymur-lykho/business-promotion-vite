@@ -76,12 +76,6 @@
     min-width: 178px;
   }
 }
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: transparent;
-  color: #22343d;
-  border: 1px solid #bcd0e5;
-}
 .btn-link {
   font-weight: 600;
   color: #02897a;
