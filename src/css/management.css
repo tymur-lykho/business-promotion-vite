@@ -1,41 +1,68 @@
 /* #region Management */
 .management {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .management {
+    padding-top: 50px;
+  }
+}
 .management-container {
   display: flex;
   align-items: center;
+  flex-direction: column-reverse;
+  gap: 50px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .management-container {
+    flex-direction: row;
+    gap: 84px;
+  }
+}
 .management-wrapper {
-  margin-right: 84px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .management-wrapper {
+    padding: 0;
+  }
+}
 .management-title {
+  margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .management-title {
+    margin-bottom: 25px;
+  }
+}
 .management-text {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .management-text {
+    margin-bottom: 30px;
+  }
+}
 .management-list {
 }
-
 .management-item:not(:last-child) {
-  margin-bottom: 25px;
+  margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .management-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
 .management-subtitle {
+  font-size: inherit;
+  line-height: inherit;
   font-weight: 600;
   margin-bottom: 12px;
 }
-
 .management-item-text {
 }
-
 .management-img {
 }
-
 /* #endregion */
