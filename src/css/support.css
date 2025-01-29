@@ -1,34 +1,83 @@
 /* #region Support */
 .support {
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-
 .support-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .support-container {
+    flex-direction: row;
+    gap: 84px;
+  }
+}
 .support-img {
-  margin-right: 84px;
 }
-
 .support-wrapper {
+  padding-left: 5px;
+  padding-right: 6px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .support-wrapper {
+    padding: 0;
+  }
+}
 .support-title {
+  margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .support-title {
+    margin-bottom: 25px;
+  }
+}
 .support-text {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
-
+@media only screen and (min-width: 1150px) {
+  .support-text {
+    margin-bottom: 30px;
+  }
+}
 .support-list {
 }
-
-.support-item:not(:last-child) {
-  margin-bottom: 25px;
+.support-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-
+.support-item::before {
+  content: '';
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 14px;
+  border: 2.92px solid #fff;
+  background-image: url(../img/icons/tick.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+.support-item:nth-child(1)::before {
+  background-color: #ff9900;
+}
+.support-item:nth-child(2)::before {
+  background-color: #f03e3d;
+}
+.support-item:nth-child(3)::before {
+  background-color: #4d8dff;
+}
+.support-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 1150px) {
+  .support-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
 .support-item-text {
 }
 /* #endregion */
